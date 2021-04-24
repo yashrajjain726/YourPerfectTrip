@@ -1,0 +1,160 @@
+.hero-image {
+  position: relative;
+  width: 100% !important;
+  height: auto !important;
+  background-image: url("https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1190&q=80") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* .hero-img {
+  width: 100%;
+  height: auto;
+} */
+
+.hero-caption-container {
+  width: 100%;
+  /* position: absolute; */
+  padding-top: 25vh;
+  padding-bottom: 25vh;
+  text-align: center;
+}
+
+.hero-caption {
+  width: 700px;
+}
+
+/* #covid-19-dashboard {
+  background: rgba(225, 225, 225, 0.5);
+} */
+
+.india-tourism {
+  padding-top: 3rem;
+}
+
+.india-tourism-header {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.intro-hidden {
+  display: none;
+}
+
+.read-more {
+  background: none;
+  border: none;
+  color: #f8a12d;
+}
+
+.carousel {
+  max-width: 792px;
+}
+
+.card {
+  max-width: 750px;
+}
+
+.state:hover {
+  border: none;
+}
+
+.top-state-body {
+  text-decoration: none;
+  color: black;
+}
+
+#video {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  margin: 10px 0px;
+  overflow: hidden;
+  background: url("../img/cover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#video h1 {
+  margin: -10px 0 20px 0px;
+}
+#video iframe {
+  width: 50vw;
+  height: 28.125vw;
+}
+
+.shorcuts {
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+#shorcuts .card {
+  transition: box-shadow 350ms ease-in;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#shorcuts .card:hover {
+  box-shadow: 0px 0px 10px 1px rgb(109, 108, 108);
+}
+#shorcuts a {
+  position: relative;
+}
+#shorcuts a img {
+  filter: blur(1px);
+}
+#shorcuts a span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+#shorcuts h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1400px) {
+  .hero-caption {
+    max-width: 400px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .rec-arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 770px) {
+  .header {
+    font-size: 30px !important;
+    font-weight: normal;
+  }
+  .hero-caption {
+    max-width: 300px !important;
+  }
+  #video iframe {
+    width: 90vw;
+    height: 50.625vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero-caption-container {
+    width: 100%;
+  }
+}

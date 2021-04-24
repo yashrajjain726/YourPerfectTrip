@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(235, 235, 235);
+  font-family: "Montserrat", sans-serif;
+  /* text-align: center; */
+}
+
+footer {
+  text-align: left;
+}
+
+footer #social {
+  text-align: center;
+}
+.header {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+#rating-container label {
+  font-size: 25px;
+}
+
+.btn-theme {
+  color: #fff !important;
+  background-color: rgba(44, 48, 68, 0.767);
+  border-color: rgba(44, 48, 68, 0.767);
+}
+df-messenger {
+  --df-messenger-bot-message: #add8e6;
+  --df-messenger-button-titlebar-color: rgba(44, 48, 68, 0.767);
+  --df-messenger-button-titlebar-font-color: #fff;
+  --df-messenger-chat-background-color: #fff;
+  --df-messenger-font-color: #000;
+  /* /--df-messenger-input-box-color: grey;/
+  /--df-messenger-input-font-color: #000;/
+  /--df-messenger-input-placeholder-font-color: #000;/ */
+  --df-messenger-minimized-chat-close-icon-color: rgba(44, 48, 68, 0.767);
+  --df-messenger-send-icon: rgba(44, 48, 68, 0.767);
+  --df-messenger-user-message: #fff;
+}
