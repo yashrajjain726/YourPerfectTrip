@@ -34,7 +34,7 @@ const Home = () => {
       <Navbar />
       <div className='hero-image'>
       <div className="hero-caption-container">
-          <Paper style={{ margin: "1% 10% 10% 10%",borderRadius:'40px',padding:'10px'}} elevation={3}>
+          <Paper style={{ margin: "5% 10% 10% 10%",borderRadius:'40px',padding:'10px'}} elevation={3}>
             <Grid container >
             <Grid item lg={3} xs={12} style={{paddingLeft:'2%'}} >
                 <Typography align="left" style={{fontSize:'10px'}}>
