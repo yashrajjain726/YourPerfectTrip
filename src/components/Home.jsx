@@ -33,46 +33,45 @@ const Home = () => {
     <>
       <Navbar />
       <div className='hero-image'>
-        <div className="hero-caption-container">
-          {/* <img src={hero_caption} alt="hero-caption" className="hero-caption" /> */}
-          <Paper style={{ margin: "1% 10% 10% 10%",borderRadius:'40px',padding:'2%'}} elevation={3}>
+      <div className="hero-caption-container">
+          <Paper style={{ margin: "1% 10% 10% 10%",borderRadius:'40px',padding:'10px'}} elevation={3}>
             <Grid container >
-            <Grid item lg={3} xs={12} style={{ padding: "2% 2% 1% 2%" }} >
-                <Typography align="left">
+            <Grid item lg={3} xs={12} style={{paddingLeft:'2%'}} >
+                <Typography align="left" style={{fontSize:'10px'}}>
                   <strong>Location</strong>
                 </Typography>
-                <input type="name" id="exampleFormControlInput1" placeholder="Where are you going ?" style={{float:'left',width:'100%'}}/>
+                <input type="name" placeholder="Where are you going ?" style={{width:'80%',float:'left',fontSize:'10px'}}/>
               </Grid>
-              <Grid item lg={3} xs={6} style={{ padding: "2% 2% 1% 2%" }}>
-                <Typography align="left">
+              <Grid item lg={3} xs={6}style={{paddingLeft:'2%'}} >
+                <Typography align="left" style={{fontSize:'10px'}}>
                   <strong>Check in</strong>
                 </Typography>
-                <Typography align="left">
+                <Typography align="left"  style={{fontSize:'10px'}}>
                       Add dates
                     </Typography>
               </Grid>
-              <Grid item lg={3} xs={6}style={{ padding: "2% 2% 1% 2%"}}>
+              <Grid item lg={3} xs={6}style={{paddingLeft:'2%'}}>
 
-                <Typography align="left">
+                <Typography align="left" style={{fontSize:'10px'}}>
                   <strong>Check Out</strong>
                 </Typography>
-                <Typography align="left">
+                <Typography align="left" style={{fontSize:'10px'}}>
                       Add dates
                     </Typography>
 
               </Grid>
-              <Grid item lg={3}xs={12} style={{ padding: "2% 2% 1% 2%"}}>
+              <Grid item lg={3}xs={12}style={{paddingLeft:'2%'}} >
                 <Grid container>
                   <Grid item lg={6} xs={6}>
-                    <Typography align="left">
+                    <Typography align="left" style={{fontSize:'10px'}}>
                       <strong>Guests</strong>
                     </Typography>
-                    <Typography align="left">
+                    <Typography align="left" style={{fontSize:'10px'}}>
                       Add guests
                     </Typography>
                   </Grid>
                   <Grid item lg={6} xs={6}>
-                   <Button variant="contained" color="secondary" style={{borderRadius:'25px',width:'100%',height:'100%',padding:'0'}}>
+                   <Button variant="contained" color="secondary" style={{borderRadius:'25px',width:'100%',height:'100%',padding:'0',fontSize:'10px'}}>
                      <SearchIcon/> Search
                     </Button>
                   </Grid>
@@ -81,8 +80,7 @@ const Home = () => {
             </Grid>
           </Paper>
           <section id="shorcuts">
-            <h2 className="header mb-3 explore" style={{color:'#fff'}}>MAKE YOUR PLANS</h2>
-            <div className="card-deck">
+            <div className="card-deck" style={{margin:"0% 8% 0% 8%"}}>
               <div className="card">
                 <a href="/book-flights" className="card-link">
                   <img src={flight} className="card-img-top" alt="Flight" />
@@ -104,7 +102,9 @@ const Home = () => {
             </div>
           </section>
         </div>
+        
       </div>
+      
       <Dashboard />
       <main className="main-container ">
         <section id="video" className='mt-3'>
